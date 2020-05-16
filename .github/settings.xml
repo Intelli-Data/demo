@@ -45,10 +45,10 @@
 
 
     <servers>
-<!--        <server>-->
-<!--            <id>github</id>-->
-<!--            <username>USERNAME</username>-->
-<!--            <password>TOKEN</password>-->
-<!--        </server>-->
+        <server>
+            <id>github</id>
+            <username>data-aggregation</username>
+            <password>12138</password>
+        </server>
     </servers>
 </settings>
