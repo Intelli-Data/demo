@@ -44,11 +44,4 @@
   </activeProfiles>
 
 
-    <servers>
-        <server>
-            <id>github</id>
-            <username>data-aggregation</username>
-            <password>12138</password>
-        </server>
-    </servers>
 </settings>
