@@ -23,4 +23,4 @@ jobs:
       env:
           GITHUB_USERNAME: data-aggregation
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn -B package --file pom.xml --settings settings.xml
+      run: mvn -B package --file pom.xml --settings $GITHUB_WORKSPACE/.github/settings.xml
