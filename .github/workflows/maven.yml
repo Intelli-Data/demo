@@ -22,7 +22,5 @@ jobs:
         java-version: 1.8
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Build with Maven
-      run: ｜
-        echo $GITHUB_WORKSPACE
-        mvn -B package --file pom.xml
+      run: echo $GITHUB_WORKSPACE
       shell: bash
