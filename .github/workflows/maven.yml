@@ -26,4 +26,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: mvn -B package --file pom.xml --settings $GITHUB_WORKSPACE/.github/settings.xml
     - name: test
-      run: ls /home/runner/.m2
+      run: cat /home/runner/.m2/settings.xml
